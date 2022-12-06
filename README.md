@@ -11,6 +11,6 @@ The static server is setup, but there are no routes made. The client is just bas
 
 This is using just React-Redux as written. 
 
-This lecture's goal is to make a request from the cleint to the local server, have that server then make an 3rd party API request. Then pass it back to the client and show it on the DOM.
+This lecture's goal is to make a request from the client to the local server, have that server then make an 3rd party API request. Then pass it back to the client and show it on the DOM.
 
 
