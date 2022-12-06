@@ -4,7 +4,11 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "emd": "^0.0.0",
     "express": "^4.17.1",
+    "giffy": "^1.0.2",
     "pg": "^8.3.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
