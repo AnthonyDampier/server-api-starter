@@ -8,10 +8,10 @@ app.use(bodyParser.json()); // needed for axios requests
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('build'));
 
-// !! Environment variables: HIDING API KEY
+// !! Environment variables: HIDING API KEY INSTAL > npm i dotenv
 require('dotenv').config();
 const PORT = process.env.PORT || 5000;
-// TODO: config vars on heroku to deploy app
+// TODO: config vars on heroku to deploy app 
 
 
 /** ---------- EXPRESS ROUTES ---------- **/
